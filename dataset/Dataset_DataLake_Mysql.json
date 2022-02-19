@@ -1,0 +1,25 @@
+{
+	"name": "Dataset_DataLake_Mysql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Data_Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "credit3.csv",
+				"folderPath": "Mysql",
+				"fileSystem": "team-nexus"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

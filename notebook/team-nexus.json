@@ -1,0 +1,1037 @@
+{
+	"name": "team-nexus",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "nexuspool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "14db4ccb-0f92-4e06-9135-1b6d934ef243"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"b707a87a-a631-4527-8785-76fb3afe0055": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "1",
+										"1": "20204",
+										"2": "Female",
+										"3": "University",
+										"4": "Married",
+										"5": "24",
+										"6": "2",
+										"7": "2",
+										"8": "-1",
+										"9": "-1",
+										"10": "-2",
+										"11": "-2",
+										"12": "3913",
+										"13": "3102",
+										"14": "689",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "0",
+										"19": "689",
+										"20": "0",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "Yes"
+									},
+									{
+										"0": "2",
+										"1": "120001",
+										"2": "Female",
+										"3": "University",
+										"4": "Single",
+										"5": "26",
+										"6": "-1",
+										"7": "2",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "2",
+										"12": "2682",
+										"13": "1725",
+										"14": "2682",
+										"15": "3272",
+										"16": "3455",
+										"17": "3261",
+										"18": "0",
+										"19": "1000",
+										"20": "1000",
+										"21": "1000",
+										"22": "0",
+										"23": "2000",
+										"24": "Yes"
+									},
+									{
+										"0": "3",
+										"1": "90047",
+										"2": "Female",
+										"3": "University",
+										"4": "Single",
+										"5": "34",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "29239",
+										"13": "14027",
+										"14": "13559",
+										"15": "14331",
+										"16": "14948",
+										"17": "15549",
+										"18": "1518",
+										"19": "1500",
+										"20": "1000",
+										"21": "1000",
+										"22": "1000",
+										"23": "5000",
+										"24": "No"
+									},
+									{
+										"0": "4",
+										"1": "50367",
+										"2": "Female",
+										"3": "University",
+										"4": "Married",
+										"5": "37",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "46990",
+										"13": "48233",
+										"14": "49291",
+										"15": "28314",
+										"16": "28959",
+										"17": "29547",
+										"18": "2000",
+										"19": "2019",
+										"20": "1200",
+										"21": "1100",
+										"22": "1069",
+										"23": "1000",
+										"24": "No"
+									},
+									{
+										"0": "5",
+										"1": "50163",
+										"2": "Male",
+										"3": "University",
+										"4": "Married",
+										"5": "57",
+										"6": "-1",
+										"7": "0",
+										"8": "-1",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "8617",
+										"13": "5670",
+										"14": "35835",
+										"15": "20940",
+										"16": "19146",
+										"17": "19131",
+										"18": "2000",
+										"19": "36681",
+										"20": "10000",
+										"21": "9000",
+										"22": "689",
+										"23": "679",
+										"24": "No"
+									},
+									{
+										"0": "6",
+										"1": "50028",
+										"2": "Male",
+										"3": "Graduate school",
+										"4": "Single",
+										"5": "37",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "64400",
+										"13": "57069",
+										"14": "57608",
+										"15": "19394",
+										"16": "19619",
+										"17": "20024",
+										"18": "2500",
+										"19": "1815",
+										"20": "657",
+										"21": "1000",
+										"22": "1000",
+										"23": "800",
+										"24": "No"
+									},
+									{
+										"0": "7",
+										"1": "500055",
+										"2": "Male",
+										"3": "Graduate school",
+										"4": "Single",
+										"5": "29",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "367965",
+										"13": "412023",
+										"14": "445007",
+										"15": "542653",
+										"16": "483003",
+										"17": "473944",
+										"18": "55000",
+										"19": "40000",
+										"20": "38000",
+										"21": "20239",
+										"22": "13750",
+										"23": "13770",
+										"24": "No"
+									},
+									{
+										"0": "8",
+										"1": "100134",
+										"2": "Female",
+										"3": "University",
+										"4": "Single",
+										"5": "23",
+										"6": "0",
+										"7": "-1",
+										"8": "-1",
+										"9": "0",
+										"10": "0",
+										"11": "-1",
+										"12": "11876",
+										"13": "380",
+										"14": "601",
+										"15": "221",
+										"16": "-159",
+										"17": "567",
+										"18": "380",
+										"19": "601",
+										"20": "0",
+										"21": "581",
+										"22": "1687",
+										"23": "1542",
+										"24": "No"
+									},
+									{
+										"0": "9",
+										"1": "140220",
+										"2": "Female",
+										"3": "High school",
+										"4": "Married",
+										"5": "28",
+										"6": "0",
+										"7": "0",
+										"8": "2",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "11285",
+										"13": "14096",
+										"14": "12108",
+										"15": "12211",
+										"16": "11793",
+										"17": "3719",
+										"18": "3329",
+										"19": "0",
+										"20": "432",
+										"21": "1000",
+										"22": "1000",
+										"23": "1000",
+										"24": "No"
+									},
+									{
+										"0": "10",
+										"1": "20373",
+										"2": "Male",
+										"3": "High school",
+										"4": "Single",
+										"5": "35",
+										"6": "-2",
+										"7": "-2",
+										"8": "-2",
+										"9": "-2",
+										"10": "-1",
+										"11": "-1",
+										"12": "0",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "13007",
+										"17": "13912",
+										"18": "0",
+										"19": "0",
+										"20": "0",
+										"21": "13007",
+										"22": "1122",
+										"23": "0",
+										"24": "No"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "ID",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "LIMIT_BAL",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "SEX",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "EDUCATION",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "MARRIAGE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "AGE",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "PAY_0",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "PAY_2",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "PAY_3",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "PAY_4",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "PAY_5",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "PAY_6",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "BILL_AMT1",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "BILL_AMT2",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "BILL_AMT3",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "BILL_AMT4",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "BILL_AMT5",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "BILL_AMT6",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "PAY_AMT1",
+										"type": "string"
+									},
+									{
+										"key": "19",
+										"name": "PAY_AMT2",
+										"type": "string"
+									},
+									{
+										"key": "20",
+										"name": "PAY_AMT3",
+										"type": "string"
+									},
+									{
+										"key": "21",
+										"name": "PAY_AMT4",
+										"type": "string"
+									},
+									{
+										"key": "22",
+										"name": "PAY_AMT5",
+										"type": "string"
+									},
+									{
+										"key": "23",
+										"name": "PAY_AMT6",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "Default",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/0a2f993f-edcb-4ca0-b7e8-1d6ac12f18fa/resourceGroups/PraxisTerm2_Project/providers/Microsoft.Synapse/workspaces/praxisterm2-project-synapse/bigDataPools/nexuspool",
+				"name": "nexuspool",
+				"type": "Spark",
+				"endpoint": "https://praxisterm2-project-synapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/nexuspool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.1",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"MongoDbDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/MongoDb/credit1.csv\"\r\n",
+					"SqlServerDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/SqlServer/credit2.csv\"\r\n",
+					"MysqlDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/Mysql/credit3.csv\"\r\n",
+					"JSONDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/Json/credit5.csv\"\r\n",
+					"ParquetDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/Parquet/credit4.csv\"\r\n",
+					"CSVDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/CSV/credit6.csv\""
+				],
+				"attachments": null,
+				"execution_count": 2
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **Read MongoDB Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_MongoDB = spark.read.load(MongoDbDataPath, format='csv', header=True)       #(499,25)\r\n",
+					"\r\n",
+					"print(df_MongoDB.count(), df_MongoDB.columns)\r\n",
+					"display(df_MongoDB.limit(10))\r\n",
+					"df_MongoDB.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **Read Sql Server Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_SqlServer = spark.read.load(SqlServerDataPath, format='csv', header=True) #(499,25)\r\n",
+					"\r\n",
+					"print(df_SqlServer.count(), df_SqlServer.columns)\r\n",
+					"display(df_SqlServer.limit(10))\r\n",
+					"df_SqlServer.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"## **Read Mysql Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_Mysql = spark.read.load(MysqlDataPath, format='csv', header=True) #(81,25)\r\n",
+					"\r\n",
+					"print(df_Mysql.count(), df_Mysql.columns)\r\n",
+					"display(df_Mysql.limit(10))\r\n",
+					"df_Mysql.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **Read JSON Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_JSON = spark.read.load(JSONDataPath, format='csv', header=True) #(490,25)\r\n",
+					"\r\n",
+					"print(df_JSON.count(), df_JSON.columns)\r\n",
+					"display(df_JSON.limit(10))\r\n",
+					"df_JSON.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **Read Parquet Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_Parquet = spark.read.load(ParquetDataPath, format='csv', header=True) #(509,25)\r\n",
+					"\r\n",
+					"print(df_Parquet.count(), df_Parquet.columns)\r\n",
+					"display(df_Parquet.limit(10))\r\n",
+					"df_Parquet.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **Read CSV Data**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_CSV = spark.read.load(CSVDataPath, format='csv', header=True) #(602,25)\r\n",
+					"\r\n",
+					"print(df_CSV.count(), df_CSV.columns)\r\n",
+					"display(df_CSV.limit(10))\r\n",
+					"df_CSV.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### **MERGE DATAFRAMES**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Merged_CreditData = df_MongoDB.union(df_SqlServer).union(df_Mysql).union(df_JSON).union(df_Parquet).union(df_CSV)\r\n",
+					"#(2680,25)"
+				],
+				"attachments": null,
+				"execution_count": 14
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"print(Merged_CreditData.count(), len(Merged_CreditData.columns))\r\n",
+					"display(Merged_CreditData.limit(10))\r\n",
+					"Merged_CreditData.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": 23
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"#### **TRANSFORMATIONS**"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Change ColNames"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Merged_CreditData = Merged_CreditData.withColumnRenamed(\"default payment next month\", \"Default\")\r\n",
+					""
+				],
+				"attachments": null,
+				"execution_count": 18
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Merged_CreditData.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": 24
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Change datatypes"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"from pyspark.sql.types import IntegerType\r\n",
+					"from pyspark.sql.functions import *\r\n",
+					"\r\n",
+					"Merged_CreditData = Merged_CreditData.withColumn(\"ID\",col(\"ID\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"LIMIT_BAL\",col(\"LIMIT_BAL\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"AGE\",col(\"AGE\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_0\",col(\"PAY_0\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_2\",col(\"PAY_2\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_3\",col(\"PAY_3\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_4\",col(\"PAY_4\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_5\",col(\"PAY_5\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_6\",col(\"PAY_6\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT1\",col(\"BILL_AMT1\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT2\",col(\"BILL_AMT2\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT3\",col(\"BILL_AMT3\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT4\",col(\"BILL_AMT4\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT5\",col(\"BILL_AMT5\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"BILL_AMT6\",col(\"BILL_AMT6\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT1\",col(\"PAY_AMT1\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT1\",col(\"PAY_AMT1\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT2\",col(\"PAY_AMT2\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT3\",col(\"PAY_AMT3\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT4\",col(\"PAY_AMT4\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT5\",col(\"PAY_AMT5\").cast(IntegerType())) \\\r\n",
+					"    .withColumn(\"PAY_AMT6\",col(\"PAY_AMT6\").cast(IntegerType())) "
+				],
+				"attachments": null,
+				"execution_count": 27
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Categorial to numerical conversion "
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"from pyspark.sql.functions import when,col\r\n",
+					"import pyspark.sql.functions as func\r\n",
+					"\r\n",
+					"Merged_CreditData = Merged_CreditData.withColumn('SEX', when(Merged_CreditData.SEX == 'Male', 1).otherwise(2)) \\\r\n",
+					"      .withColumn(\"EDUCATION\", when(Merged_CreditData.EDUCATION == \"Graduate school\",1) \\\r\n",
+					"            .when(Merged_CreditData.EDUCATION == \"University\",2) \\\r\n",
+					"           .when(Merged_CreditData.EDUCATION == 'High school', 3) \\\r\n",
+					"           .otherwise(4))   \\\r\n",
+					"      .withColumn(\"MARRIAGE\", when(Merged_CreditData.MARRIAGE == \"Married\", 1) \\\r\n",
+					"       .when(Merged_CreditData.MARRIAGE == 'Single',2) \\\r\n",
+					"        .otherwise(3))"
+				],
+				"attachments": null,
+				"execution_count": 30
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"Merged_CreditData = Merged_CreditData.withColumn('LIMIT_BAL', func.round(Merged_CreditData[\"LIMIT_BAL\"], -3))"
+				],
+				"attachments": null,
+				"execution_count": 33
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"print(Merged_CreditData.count(), len(Merged_CreditData.columns))\r\n",
+					"display(Merged_CreditData.limit(10))\r\n",
+					"Merged_CreditData.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"#Convert Final Merged Transformed data to csv\r\n",
+					"Merged_CreditData.repartition(1).write.option(\"header\",\"true\")\\\r\n",
+					"   .csv(\"abfss://team-nexus@term2datalake.dfs.core.windows.net/FinalData/\")\r\n",
+					"#Table_H.repartition(1).write.option(\"header\",True).csv(\"Adress3\")"
+				],
+				"attachments": null,
+				"execution_count": 38
+			}
+		]
+	}
+}

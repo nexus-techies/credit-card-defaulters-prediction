@@ -1,0 +1,1996 @@
+{
+	"name": "project_credit_card",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "nexuspool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "48e23d92-99d5-457b-ac48-7da98c00c6f3"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"449c8c05-6602-470c-8d5f-a4d0d6d2db7f": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "1",
+										"1": "20000",
+										"2": "2",
+										"3": "2",
+										"4": "1",
+										"5": "24",
+										"6": "2",
+										"7": "2",
+										"8": "-1",
+										"9": "-1",
+										"10": "-2",
+										"11": "-2",
+										"12": "3913",
+										"13": "3102",
+										"14": "689",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "0",
+										"19": "689",
+										"20": "0",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "Yes"
+									},
+									{
+										"0": "2",
+										"1": "120000",
+										"2": "2",
+										"3": "2",
+										"4": "2",
+										"5": "26",
+										"6": "-1",
+										"7": "2",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "2",
+										"12": "2682",
+										"13": "1725",
+										"14": "2682",
+										"15": "3272",
+										"16": "3455",
+										"17": "3261",
+										"18": "0",
+										"19": "1000",
+										"20": "1000",
+										"21": "1000",
+										"22": "0",
+										"23": "2000",
+										"24": "Yes"
+									},
+									{
+										"0": "3",
+										"1": "90000",
+										"2": "2",
+										"3": "2",
+										"4": "2",
+										"5": "34",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "29239",
+										"13": "14027",
+										"14": "13559",
+										"15": "14331",
+										"16": "14948",
+										"17": "15549",
+										"18": "1518",
+										"19": "1500",
+										"20": "1000",
+										"21": "1000",
+										"22": "1000",
+										"23": "5000",
+										"24": "No"
+									},
+									{
+										"0": "4",
+										"1": "50000",
+										"2": "2",
+										"3": "2",
+										"4": "1",
+										"5": "37",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "46990",
+										"13": "48233",
+										"14": "49291",
+										"15": "28314",
+										"16": "28959",
+										"17": "29547",
+										"18": "2000",
+										"19": "2019",
+										"20": "1200",
+										"21": "1100",
+										"22": "1069",
+										"23": "1000",
+										"24": "No"
+									},
+									{
+										"0": "5",
+										"1": "50000",
+										"2": "1",
+										"3": "2",
+										"4": "1",
+										"5": "57",
+										"6": "-1",
+										"7": "0",
+										"8": "-1",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "8617",
+										"13": "5670",
+										"14": "35835",
+										"15": "20940",
+										"16": "19146",
+										"17": "19131",
+										"18": "2000",
+										"19": "36681",
+										"20": "10000",
+										"21": "9000",
+										"22": "689",
+										"23": "679",
+										"24": "No"
+									},
+									{
+										"0": "6",
+										"1": "50000",
+										"2": "1",
+										"3": "1",
+										"4": "2",
+										"5": "37",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "64400",
+										"13": "57069",
+										"14": "57608",
+										"15": "19394",
+										"16": "19619",
+										"17": "20024",
+										"18": "2500",
+										"19": "1815",
+										"20": "657",
+										"21": "1000",
+										"22": "1000",
+										"23": "800",
+										"24": "No"
+									},
+									{
+										"0": "7",
+										"1": "500000",
+										"2": "1",
+										"3": "1",
+										"4": "2",
+										"5": "29",
+										"6": "0",
+										"7": "0",
+										"8": "0",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "367965",
+										"13": "412023",
+										"14": "445007",
+										"15": "542653",
+										"16": "483003",
+										"17": "473944",
+										"18": "55000",
+										"19": "40000",
+										"20": "38000",
+										"21": "20239",
+										"22": "13750",
+										"23": "13770",
+										"24": "No"
+									},
+									{
+										"0": "8",
+										"1": "100000",
+										"2": "2",
+										"3": "2",
+										"4": "2",
+										"5": "23",
+										"6": "0",
+										"7": "-1",
+										"8": "-1",
+										"9": "0",
+										"10": "0",
+										"11": "-1",
+										"12": "11876",
+										"13": "380",
+										"14": "601",
+										"15": "221",
+										"16": "-159",
+										"17": "567",
+										"18": "380",
+										"19": "601",
+										"20": "0",
+										"21": "581",
+										"22": "1687",
+										"23": "1542",
+										"24": "No"
+									},
+									{
+										"0": "9",
+										"1": "140000",
+										"2": "2",
+										"3": "3",
+										"4": "1",
+										"5": "28",
+										"6": "0",
+										"7": "0",
+										"8": "2",
+										"9": "0",
+										"10": "0",
+										"11": "0",
+										"12": "11285",
+										"13": "14096",
+										"14": "12108",
+										"15": "12211",
+										"16": "11793",
+										"17": "3719",
+										"18": "3329",
+										"19": "0",
+										"20": "432",
+										"21": "1000",
+										"22": "1000",
+										"23": "1000",
+										"24": "No"
+									},
+									{
+										"0": "10",
+										"1": "20000",
+										"2": "1",
+										"3": "3",
+										"4": "2",
+										"5": "35",
+										"6": "-2",
+										"7": "-2",
+										"8": "-2",
+										"9": "-2",
+										"10": "-1",
+										"11": "-1",
+										"12": "0",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "13007",
+										"17": "13912",
+										"18": "0",
+										"19": "0",
+										"20": "0",
+										"21": "13007",
+										"22": "1122",
+										"23": "0",
+										"24": "No"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "ID",
+										"type": "int"
+									},
+									{
+										"key": "1",
+										"name": "LIMIT_BAL",
+										"type": "int"
+									},
+									{
+										"key": "2",
+										"name": "SEX",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "EDUCATION",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "MARRIAGE",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "AGE",
+										"type": "int"
+									},
+									{
+										"key": "6",
+										"name": "PAY_0",
+										"type": "int"
+									},
+									{
+										"key": "7",
+										"name": "PAY_2",
+										"type": "int"
+									},
+									{
+										"key": "8",
+										"name": "PAY_3",
+										"type": "int"
+									},
+									{
+										"key": "9",
+										"name": "PAY_4",
+										"type": "int"
+									},
+									{
+										"key": "10",
+										"name": "PAY_5",
+										"type": "int"
+									},
+									{
+										"key": "11",
+										"name": "PAY_6",
+										"type": "int"
+									},
+									{
+										"key": "12",
+										"name": "BILL_AMT1",
+										"type": "int"
+									},
+									{
+										"key": "13",
+										"name": "BILL_AMT2",
+										"type": "int"
+									},
+									{
+										"key": "14",
+										"name": "BILL_AMT3",
+										"type": "int"
+									},
+									{
+										"key": "15",
+										"name": "BILL_AMT4",
+										"type": "int"
+									},
+									{
+										"key": "16",
+										"name": "BILL_AMT5",
+										"type": "int"
+									},
+									{
+										"key": "17",
+										"name": "BILL_AMT6",
+										"type": "int"
+									},
+									{
+										"key": "18",
+										"name": "PAY_AMT1",
+										"type": "int"
+									},
+									{
+										"key": "19",
+										"name": "PAY_AMT2",
+										"type": "int"
+									},
+									{
+										"key": "20",
+										"name": "PAY_AMT3",
+										"type": "int"
+									},
+									{
+										"key": "21",
+										"name": "PAY_AMT4",
+										"type": "int"
+									},
+									{
+										"key": "22",
+										"name": "PAY_AMT5",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "PAY_AMT6",
+										"type": "int"
+									},
+									{
+										"key": "24",
+										"name": "Default",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"1"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/0a2f993f-edcb-4ca0-b7e8-1d6ac12f18fa/resourceGroups/PraxisTerm2_Project/providers/Microsoft.Synapse/workspaces/praxisterm2-project-synapse/bigDataPools/nexuspool",
+				"name": "nexuspool",
+				"type": "Spark",
+				"endpoint": "https://praxisterm2-project-synapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/nexuspool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.1",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "6eJcM-_GawfU"
+				},
+				"source": [
+					"# Introduction\n",
+					"\n",
+					"Problem: Every bank experiences losses due to credit card defaults. I would like to present a data science solution: creaing a model to predict who will default. If we have a good idea of who will default, we can do something to try to prevent it (forebearance, consulting, etc.).\n",
+					"\n",
+					"Objective: Predict whether or not a credit card client will default on their credit card\n",
+					"Audience: Lending Executives"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "61le3dntawfY"
+				},
+				"source": [
+					"# Target\n",
+					"\n",
+					"Default payment (Yes=1, No=0)"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "BwGtbuWEawfZ"
+				},
+				"source": [
+					"# Features\n",
+					"\n",
+					"limit_bal: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit\n",
+					"\n",
+					"sex: Gender (1 = male; 2 = female)\n",
+					"\n",
+					"Education (1 = graduate school; 2 = university; 3 = high school; 4 = others)\n",
+					"\n",
+					"Marital status (1 = married; 2 = single; 3 = others)\n",
+					"\n",
+					"Age (year)\n",
+					"\n",
+					"History of past payment. (UCI) tracked the past monthly payment records (from April to September, 2005) as follows: The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above\n",
+					"\n",
+					"Amount of bill statement (NT dollar) from April to September, 2005\n",
+					"\n",
+					"Amount of previous payment (NT dollar) from April to September 2005"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"FinalCardDataPath = \"abfss://team-nexus@term2datalake.dfs.core.windows.net/FinalData/part-00000-f382ed84-ea3f-4d74-ade9-79d9ee6b0ffe-c000.csv\""
+				],
+				"attachments": null,
+				"execution_count": 9
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "eJdq6Qbrawfa"
+				},
+				"source": [
+					"# Import Libraries"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "ateJAzEbawfa",
+					"outputId": "728a6931-7021-46d1-cfd4-b7bad8c2f44e",
+					"scrolled": true
+				},
+				"source": [
+					"# For data manipulation\n",
+					"import pandas as pd\n",
+					"import numpy as np\n",
+					"import pickle\n",
+					"\n",
+					"# Data visualization\n",
+					"import seaborn as sns\n",
+					"import matplotlib.pyplot as plt\n",
+					"%matplotlib inline\n",
+					"# %config InlineBackend.figure_formats = ['svg']\n",
+					"# sns.set(style='white', palette = 'Paired')\n",
+					"\n",
+					"# Modeling\n",
+					"from sklearn.inspection import permutation_importance\n",
+					"from sklearn import linear_model, svm, naive_bayes, neighbors, ensemble\n",
+					"from sklearn.model_selection import KFold, train_test_split, GridSearchCV, RandomizedSearchCV\n",
+					"from sklearn.neighbors import KNeighborsClassifier\n",
+					"from sklearn import metrics\n",
+					"from sklearn.preprocessing import StandardScaler, OneHotEncoder\n",
+					"from sklearn.linear_model import LogisticRegression\n",
+					"from sklearn.ensemble import RandomForestClassifier\n",
+					"from sklearn.svm import SVC\n",
+					"from sklearn.metrics import classification_report, plot_confusion_matrix, confusion_matrix,\\\n",
+					"roc_auc_score, roc_curve, precision_recall_curve, fbeta_score, recall_score,\\\n",
+					"precision_recall_fscore_support\n",
+					"\n",
+					"from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor\n",
+					"from sklearn.ensemble import (RandomForestClassifier, ExtraTreesClassifier, VotingClassifier, \n",
+					"                              AdaBoostClassifier, BaggingRegressor)\n",
+					"from sklearn.metrics import accuracy_score, make_scorer, log_loss\n",
+					"\n",
+					"from imblearn.under_sampling import RandomUnderSampler\n",
+					"from imblearn.over_sampling import RandomOverSampler\n",
+					"from collections import Counter\n",
+					"from mlxtend.plotting import plot_decision_regions\n",
+					"\n",
+					"import xgboost as xgb"
+				],
+				"attachments": null,
+				"execution_count": 11
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					}
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df_FinalCardDataPath= spark.read.load(FinalCardDataPath, format='csv', header=True) #(2680,25)\r\n",
+					"\r\n",
+					"print(df_FinalCardDataPath.count(), len(df_FinalCardDataPath.columns))\r\n",
+					"display(df_FinalCardDataPath.limit(10))\r\n",
+					"df_FinalCardDataPath.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 270
+					},
+					"id": "QW5IEcQXawfh",
+					"outputId": "fd9f3b87-fdc8-43ec-97e5-fce1f544aa27"
+				},
+				"source": [
+					"from pyspark.sql.types import IntegerType\n",
+					"from pyspark.sql.functions import *\n",
+					"\n",
+					"df_FinalCardDataPath = df_FinalCardDataPath.withColumn(\"ID\",col(\"ID\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"LIMIT_BAL\",col(\"LIMIT_BAL\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"AGE\",col(\"AGE\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_0\",col(\"PAY_0\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_2\",col(\"PAY_2\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_3\",col(\"PAY_3\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_4\",col(\"PAY_4\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_5\",col(\"PAY_5\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_6\",col(\"PAY_6\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT1\",col(\"BILL_AMT1\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT2\",col(\"BILL_AMT2\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT3\",col(\"BILL_AMT3\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT4\",col(\"BILL_AMT4\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT5\",col(\"BILL_AMT5\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"BILL_AMT6\",col(\"BILL_AMT6\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT1\",col(\"PAY_AMT1\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT1\",col(\"PAY_AMT1\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT2\",col(\"PAY_AMT2\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT3\",col(\"PAY_AMT3\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT4\",col(\"PAY_AMT4\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT5\",col(\"PAY_AMT5\").cast(IntegerType())) \\\n",
+					"    .withColumn(\"PAY_AMT6\",col(\"PAY_AMT6\").cast(IntegerType())) "
+				],
+				"attachments": null,
+				"execution_count": 18
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"print(df_FinalCardDataPath.count(), len(df_FinalCardDataPath.columns))\r\n",
+					"display(df_FinalCardDataPath.limit(10))\r\n",
+					"df_FinalCardDataPath.printSchema()"
+				],
+				"attachments": null,
+				"execution_count": 19
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "Kyxh078Zawfj"
+				},
+				"source": [
+					"# Data Preprocessing"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "chLYKVuiawfl"
+				},
+				"source": [
+					"# The column names are a little odd, so let's change them\n",
+					"column_names = {\n",
+					"    'history_names': {\n",
+					"        'pay_0':'Sep_Hist','pay_6':'Aug_Hist','pay_2':'Jul_Hist',\n",
+					"        'pay_3':'Jun_Hist','pay_4':'May_Hist','pay_5':'Apr_Hist'\n",
+					"    },\n",
+					"    'balance_names': {\n",
+					"        'bill_amt1':'Sep_Bal','bill_amt2':'Aug_Bal','bill_amt3':'Jul_Bal',\n",
+					"        'bill_amt4':'Jun_Bal','bill_amt5':'May_Bal','bill_amt6':'Apr_Bal'\n",
+					"    },\n",
+					"    'payment_names': {\n",
+					"        'pay_amt1':'Sep_Pmt','pay_amt2':'Aug_Pmt','pay_amt3':'Jul_Pmt',\n",
+					"        'pay_amt4':'Jun_Pmt','pay_amt5':'May_Pmt','pay_amt6':'Apr_Pmt'\n",
+					"    }\n",
+					"}\n",
+					"\n",
+					"for column_name in column_names:\n",
+					"    df.rename(columns=column_names[column_name], inplace=True)\n",
+					"\n",
+					"df.rename(columns={'default_payment_next_month': 'Default'}, inplace=True)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "OzYasZphawfn"
+				},
+				"source": [
+					"# ID column is just an identifier, which also has no predictive value. So we remove.\n",
+					"df.drop(['id'], axis=1, inplace=True)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "05oz3xzqawfn"
+				},
+				"source": [
+					"# Sex, education, and marriage should be categorical columns\n",
+					"df['sex'].replace(to_replace=['1', '2'], value=['male', 'female'], inplace=True)\n",
+					"\n",
+					"df['education'].replace(to_replace=['1', '2', '3', '4', '6', '0'],\n",
+					"                        value=['graduate', 'university', 'highschool', 'other', 'other', 'other'],\n",
+					"                        inplace=True)\n",
+					"\n",
+					"df['marriage'].replace(to_replace=['1', '2', '3', '0'], value=['married', 'single', 'other', 'other'], inplace=True)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "98s4x-O3awfn",
+					"outputId": "fa08abe0-dcfc-428a-bbf2-dcd2691c8f2b"
+				},
+				"source": [
+					"# Let's take a look at the range of values for payment history\n",
+					"payment_months = ['Sep_Hist', 'Aug_Hist', 'Jul_Hist',\n",
+					"                  'Jun_Hist', 'May_Hist', 'Apr_Hist']\n",
+					"\n",
+					"for month in payment_months:\n",
+					"    print(sorted(df[month].unique()))"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "YeMz5Ygpawfo"
+				},
+				"source": [
+					"# These ranges are pretty odd, let's change the range to 0-10, which is more reasonable\n",
+					"old_range = [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8]\n",
+					"new_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+					"\n",
+					"for month in payment_months:\n",
+					"    df[month].replace(to_replace=old_range,\n",
+					"                      value=new_range,\n",
+					"                      inplace=True)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "8jHcyjn6awfp"
+				},
+				"source": [
+					"# Save dataframe to a csv for use in Tableau and serialize object as pickle\n",
+					"# for later use\n",
+					"# df.to_csv('/Users/dominguez/Documents/Classification_Credit_Cards/data/df.csv')\n",
+					"\n",
+					"# with open('/Users/dominguez/Documents/Classification_Credit_Cards/web_app/df.pickle', 'wb') as to_write:\n",
+					"#    pickle.dump(df, to_write)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "bkwhRzgmawfp"
+				},
+				"source": [
+					"# Exploratory Analysis"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 270
+					},
+					"id": "SD0WoVjNawfq",
+					"outputId": "cdeaf589-432d-401c-a809-03516e8f2acb"
+				},
+				"source": [
+					"df.head()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "-7DCQuU9awfq"
+				},
+				"source": [
+					"## Visualize Data"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 391
+					},
+					"id": "a2uKZRVtawfr",
+					"outputId": "9a075002-84a1-4819-fa35-7e20f2f6364e"
+				},
+				"source": [
+					"# Average balance over time\n",
+					"bal_months = ['Apr_Bal', 'May_Bal', 'Jun_Bal',\n",
+					"              'Jul_Bal', 'Aug_Bal', 'Sep_Bal']\n",
+					"avg_bal = []\n",
+					"\n",
+					"for month in bal_months:\n",
+					"    avg_bal.append(df[month].mean())\n",
+					"\n",
+					"plt.figure(figsize=(10,6))\n",
+					"plt.plot(bal_months, avg_bal)\n",
+					"plt.title('Average Balance Over Time ($)')\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 391
+					},
+					"id": "Z1_5HOyCawfs",
+					"outputId": "f3f7436a-1040-4f12-a105-9bf35e87a052"
+				},
+				"source": [
+					"# Average payment over time\n",
+					"monthly_payments = ['Apr_Pmt', 'May_Pmt', 'Jun_Pmt',\n",
+					"                    'Jul_Pmt', 'Aug_Pmt', 'Sep_Pmt']\n",
+					"avg_pmt = []\n",
+					"\n",
+					"for month in monthly_payments:\n",
+					"    avg_pmt.append(df[month].mean())\n",
+					"\n",
+					"plt.figure(figsize=(10,6))\n",
+					"plt.plot(monthly_payments, avg_pmt)\n",
+					"plt.title('Average Payment Over Time ($)')\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 390
+					},
+					"id": "_drgoJ_bawft",
+					"outputId": "b7c6c4c0-2433-42b1-d138-5c2d9222fb10"
+				},
+				"source": [
+					"# The data is highly imbalanced\n",
+					"plt.figure(figsize=(10,6))\n",
+					"plt.hist(df['Default'], bins=2)\n",
+					"plt.title('Target Distribution')\n",
+					"plt.xticks([0,1])\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "On5mlBVYawft"
+				},
+				"source": [
+					"Highly imbalanced dataset"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 462
+					},
+					"id": "MgXGZgd7awfu",
+					"outputId": "b3997e4d-f702-40b0-f608-302838749e1c"
+				},
+				"source": [
+					"# Distribution of limit balance\n",
+					"plt.figure(figsize = (10,6))\n",
+					"plt.title('Credit Limit Amount - Probability Density')\n",
+					"plt.ticklabel_format(style='plain', axis='x')\n",
+					"sns.distplot(df['limit_bal'],kde=True,bins=100, color=\"blue\")\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "Isrwp0hwawfu",
+					"outputId": "1219bfa7-cdcb-4388-d20f-2140e338c1e1"
+				},
+				"source": [
+					"# Top Credit Limit Amounts in our distribution\n",
+					"df['limit_bal'].value_counts().head()"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "-j2OZg03awfv"
+				},
+				"source": [
+					"Largest Credit Limit Amount groups are 50k, 20k, and 30k"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 404
+					},
+					"id": "bwOhScBUawfv",
+					"outputId": "d60a7a33-90cb-4c6d-c044-a6ef4042cb61"
+				},
+				"source": [
+					"# Credit Limit vs Sex\n",
+					"plt.figure(figsize = (8,6))\n",
+					"plt.title('Credit Limit Amount by Sex')\n",
+					"plt.ticklabel_format(style='plain', axis='y')\n",
+					"sns.boxplot(x='sex', y='limit_bal', hue='sex', data=df, palette='bright')\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "8VBc_QYeawfw"
+				},
+				"source": [
+					"Credit limit amount is evenly distributed amongst males and females"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 384
+					},
+					"id": "VHTNpQQdawfw",
+					"outputId": "8b2060ec-f936-4bbe-fc73-0ace50ac304a"
+				},
+				"source": [
+					"# Marriage, Age, and Sex\n",
+					"def boxplot_variation(feature1, feature2, feature3, width=16):\n",
+					"    fig, ax1 = plt.subplots(ncols=1, figsize=(width, 6))\n",
+					"    s = sns.boxplot(ax=ax1, x=feature1, y=feature2, hue=feature3,\n",
+					"                    data=df, palette='bright')\n",
+					"    s.set_xticklabels(s.get_xticklabels(), rotation=90)\n",
+					"    plt.show();\n",
+					"\n",
+					"boxplot_variation('marriage', 'age', 'sex', 8)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 500
+					},
+					"id": "sRVTJwPmawgy",
+					"outputId": "373b6597-c983-4a83-a093-1e6c29d082de"
+				},
+				"source": [
+					"# Amount of Bill Statement\n",
+					"# Correlation Plot\n",
+					"values = list(column_names['balance_names'].values())\n",
+					"\n",
+					"plt.figure(figsize=(8,8))\n",
+					"plt.title('Bill Statement Amount Correlations')\n",
+					"corr = df[values].corr()\n",
+					"sns.heatmap(corr, xticklabels=corr.columns, yticklabels=corr.columns, linewidths=0.1, vmin=-1, vmax=1)\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "D80LTq8jawgz"
+				},
+				"source": [
+					"Correlation between months becomes stronger the closer the months are in time."
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 500
+					},
+					"id": "YMg2JJQ5awg3",
+					"outputId": "d678e399-923b-4580-ba1e-e4d1d99a113b"
+				},
+				"source": [
+					"# Amount of Previous Payment\n",
+					"# Correlation Plot\n",
+					"values = list(column_names['payment_names'].values())\n",
+					"\n",
+					"plt.figure(figsize=(8,8))\n",
+					"plt.title('Payment Amount Correlations')\n",
+					"corr = df[values].corr()\n",
+					"sns.heatmap(corr, xticklabels=corr.columns, yticklabels=corr.columns, linewidths=0.1, vmin=-1, vmax=1)\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "KV430SHdawg3"
+				},
+				"source": [
+					"No correlation between payment amount months"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 500
+					},
+					"id": "hVHPJUEKawg3",
+					"outputId": "8868fcc6-b105-4a79-8493-3e916fc2f8ad"
+				},
+				"source": [
+					"# Payment Status\n",
+					"# Correlation Plot\n",
+					"values = list(column_names['history_names'].values())\n",
+					"\n",
+					"plt.figure(figsize=(8,8))\n",
+					"plt.title('Payment Status Correlations')\n",
+					"corr = df[values].corr()\n",
+					"sns.heatmap(corr, xticklabels=corr.columns, yticklabels=corr.columns, linewidths=0.1, vmin=-1, vmax=1)\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "TqKISjysawg4"
+				},
+				"source": [
+					"Correlation gets stronger the closer the months are in time."
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "JkCq346Jawg5"
+				},
+				"source": [
+					"# Minimal Viable Product\n",
+					"\n",
+					"Let's test several models to get a base model to proceed with further testing"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "GtBr-St2awg6"
+				},
+				"source": [
+					"## Features and target variables"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "twPnao6-awg6"
+				},
+				"source": [
+					"X = df.loc[:,'limit_bal':'Apr_Pmt']\n",
+					"y = df['Default']"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "iEkMg-D6awg6"
+				},
+				"source": [
+					"## Encode Categorical Variables"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "-h_U4RA8awg6"
+				},
+				"source": [
+					"categoricals = list(X.select_dtypes('object').columns)\n",
+					"numericals = list(X.select_dtypes('int64').columns)\n",
+					"\n",
+					"def encode_cats(categoricals, numericals):\n",
+					"    \"\"\"\n",
+					"    Takes in a list of categorical columns and a list of numerical columns and returns the dataframe with encoded variables\n",
+					"    \"\"\"\n",
+					"    ohe = OneHotEncoder(sparse=False, drop='first')\n",
+					"    cat_matrix = ohe.fit_transform(X.loc[:, categoricals])\n",
+					"    X_ohe = pd.DataFrame(cat_matrix,\n",
+					"                         columns=ohe.get_feature_names(categoricals), #create meaningful column names\n",
+					"                         index=X.index) #keep the same index values\n",
+					"    \n",
+					"    return pd.concat([X.loc[:, numericals], X_ohe], axis=1)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "XZ0l_zNRawg7",
+					"outputId": "c3031949-6b9b-4b0d-d32d-285a94cd6194"
+				},
+				"source": [
+					"X = encode_cats(categoricals, numericals)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "Nsf3ccXFawg8"
+				},
+				"source": [
+					"## Split the Data"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "GMGxKygjawg8"
+				},
+				"source": [
+					"def train_test_val_split(X, y):\n",
+					"    \"\"\"\n",
+					"    Input: X --> array of features, y --> target array\n",
+					"           set aside for testing.\n",
+					"    Output: Features and target split into train, val and test sets. \n",
+					"            Test size = 20%\n",
+					"            Val size = 25%\n",
+					"            Converted to numpy arrays.\n",
+					"    \"\"\"\n",
+					"    X, X_test, y, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n",
+					"\n",
+					"    # Split train/validate sets\n",
+					"    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.25, random_state=42)\n",
+					"\n",
+					"    # Convert to numpy arrays to help with generate indeces below\n",
+					"    X, y = np.array(X), np.array(y)\n",
+					"\n",
+					"    return X_train, X_val, X_test, y_train, y_val, y_test"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "EGPxf0Ugawg8"
+				},
+				"source": [
+					"X_train, X_val, X_test, y_train, y_val, y_test = train_test_val_split(X, y)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "2fBh_yW0awhB"
+				},
+				"source": [
+					"def scale_data(X_train, X_val, X_test):\n",
+					"    \"\"\"\n",
+					"    Input: Features (numpy arrays)\n",
+					"    Output: Scaled data\n",
+					"    \"\"\"\n",
+					"    scaler = StandardScaler()\n",
+					"    X_train_scaled = scaler.fit_transform(X_train)\n",
+					"    X_val_scaled = scaler.transform(X_val)\n",
+					"    X_test_scaled = scaler.transform(X_test)\n",
+					"\n",
+					"    return X_train_scaled, X_val_scaled, X_test_scaled"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "_sZkDQHxawhB"
+				},
+				"source": [
+					"X_train_scaled, X_val_scaled, X_test_scaled = scale_data(X_train, X_val, X_test)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "0483AW-TawhC"
+				},
+				"source": [
+					"def model_score(model_name, model, X_train_scaled, X_val_scaled,\n",
+					"                X_test_scaled, y_train, y_val, y_test, test=False):\n",
+					"    \"\"\"\n",
+					"    Input: Transformed feature and target sets\n",
+					"    Output: Validation scores. If test=True, includes test scores\n",
+					"    \"\"\"\n",
+					"    print('Calculating validation score...')\n",
+					"\n",
+					"    my_model = model\n",
+					"    my_model.fit(X_train_scaled,y_train)\n",
+					"    print(f'{model_name} accuracy score: {my_model.score(X_val_scaled,y_val):.4}\\n')\n",
+					"\n",
+					"    if test:\n",
+					"        print(\"Calculating test score...\")\n",
+					"        print(f'{model_name} accuracy score: {my_model.score(X_test_scaled,y_test):.4}\\n')\n",
+					"\n",
+					"    return my_model"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "lX4HXOtxawhC",
+					"outputId": "487f4284-68df-4e10-8eaa-a0530bcf707f"
+				},
+				"source": [
+					"knn = model_score('KNN', KNeighborsClassifier(n_neighbors=5),\n",
+					"                       X_train_scaled,X_val_scaled, X_test_scaled,\n",
+					"                       y_train, y_val, y_test,test=False)\n",
+					"\n",
+					"lr = model_score('LogReg', LogisticRegression(penalty='none'),\n",
+					"                       X_train_scaled,X_val_scaled, X_test_scaled,\n",
+					"                       y_train, y_val, y_test,test=False)\n",
+					"\n",
+					"rf = model_score('RF', RandomForestClassifier(),\n",
+					"                       X_train_scaled,X_val_scaled, X_test_scaled,\n",
+					"                       y_train, y_val, y_test,test=False)\n",
+					"        \n",
+					"gbm = model_score('XGBoost', xgb.XGBClassifier(),\n",
+					"                       X_train_scaled,X_val_scaled, X_test_scaled,\n",
+					"                       y_train, y_val, y_test,test=False)\n",
+					"\n",
+					"svc = model_score('SVM', SVC(probability=True),\n",
+					"                       X_train_scaled,X_val_scaled, X_test_scaled,\n",
+					"                       y_train, y_val, y_test,test=False)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "tL2LYT51awhD"
+				},
+				"source": [
+					"Support Vector Machine performs the best with an accuracy of 0.8193. However, we will move forward with Random Forest because it is less computationally expensive."
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "V7HN3creawhD"
+				},
+				"source": [
+					"# Performance Metrics"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "J18LplA-awhD"
+				},
+				"source": [
+					"## Confusion Matrix"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 415
+					},
+					"id": "h5R7t641awhD",
+					"outputId": "650bc5e9-e3f5-4961-a302-7be82ba1e8c7"
+				},
+				"source": [
+					"fig, ax = plt.subplots(figsize=(6,6))\n",
+					"plot_confusion_matrix(rf, X_test_scaled, y_test, ax=ax);"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "2GfA56xoawhE"
+				},
+				"source": [
+					"## Classification Report"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "bZC2KiCsawhE",
+					"outputId": "8569954c-9afe-4f7c-d47e-c09500cff2bb"
+				},
+				"source": [
+					"y_preds_rf = rf.predict(X_test_scaled)\n",
+					"print(classification_report(y_test, y_preds_rf))"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "55Nb6ULwawhE"
+				},
+				"source": [
+					"# Optimization"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "dqF-P92-awhG"
+				},
+				"source": [
+					"What are we optimizing for? In this case, we are optimizing recall. Recall is a performance metric which attempts to answer the question: What proportion of actual positives was identified correctly? Mathematically, the formula is\n",
+					"\n",
+					"$RecallScore = \\frac{TP}{TP + FN}$\n",
+					"\n",
+					"TP = True Positive, or a correctly predicted default\n",
+					"\n",
+					"FN = False Negative, or an incorrectly predicted non-default\n",
+					"\n",
+					"Ideally, we do not want to miss any potentially defaults to fall through the cracks, so our optimal model will minimize False Negatives (optimize Recall Score)"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "rsAIafqoawhH"
+				},
+				"source": [
+					"# Feature Selection\n",
+					"There are many feature selection scores one could perform to determine\n",
+					"which features are most useful. For this case, we will use Feature Importance.\n",
+					"\n",
+					"Feature Importance is the process of assigning scores to each feature, depending on how useful it is in predicting the target variable"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 335
+					},
+					"id": "YqbObsf3awhI",
+					"outputId": "cc8ed195-9882-4f46-e525-aad9908414cd"
+				},
+				"source": [
+					"temp = pd.DataFrame({'Feature': list(X.columns), 'Feature Importance': rf.feature_importances_})\n",
+					"temp = temp.sort_values(by=\"Feature Importance\", ascending=False)\n",
+					"\n",
+					"plt.figure(figsize=(7,4))\n",
+					"plt.title('Feature Importance', fontsize=14)\n",
+					"s=sns.barplot(x='Feature', y='Feature Importance', data=temp)\n",
+					"s.set_xticklabels(s.get_xticklabels(), rotation=90)\n",
+					"plt.show();"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "lvy3qNBHawhJ"
+				},
+				"source": [
+					"The top features are shown in the chart. It's interesting how 'age' is the second most important feature. Let's keep all of them except the last 6, the categorical variables."
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "RLZTemX_awhJ"
+				},
+				"source": [
+					"# Update dataframe\n",
+					"X = X.iloc[:, np.argsort(rf.feature_importances_,)[7:]]"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "Ux6aOZ3xawhK"
+				},
+				"source": [
+					"# Hyperparamter Tuning\n",
+					"Let's search for optimal parameters for our model"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "k6L-gUoWawhK"
+				},
+				"source": [
+					"# Define parameter values that should be searched\n",
+					"bootstrap = [True, False]\n",
+					"max_features = ['auto','sqrt']\n",
+					"min_samples_leaf = [1,2,4]\n",
+					"min_samples_split = [2,5,10]\n",
+					"n_estimators = [50,100,150,200]\n",
+					"max_depth = [4,6,10,12, None]"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "ynZerxP-awhK",
+					"outputId": "da53da48-eef2-42f7-c3ea-1bd22784b7a3"
+				},
+				"source": [
+					"# Specify \"parameter distributions\" rather than a \"parameter grid\"\n",
+					"\n",
+					"param_dist = dict(n_estimators=n_estimators, max_depth = max_depth, bootstrap=bootstrap,\n",
+					"                  min_samples_leaf=min_samples_leaf,min_samples_split=min_samples_split,\n",
+					"                  max_features=max_features)\n",
+					"print(param_dist)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "e3SpLqAJawhL",
+					"outputId": "b00bf817-1a17-4d05-82b4-b439e20c7dcb"
+				},
+				"source": [
+					"# n_iter controls the number of searches\n",
+					"\n",
+					"rand = RandomizedSearchCV(RandomForestClassifier(), param_dist, cv=10, scoring='accuracy',\n",
+					"                          n_iter=10, random_state=42)\n",
+					"rand.fit(X_train_scaled, y_train)\n",
+					"\n",
+					"# Uncomment line below to print\n",
+					"# rand.cv_results_"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "L5qBkrl5awhL"
+				},
+				"source": [
+					"def get_best_model(model_grid):\n",
+					"    best_k = model_grid.cv_results_['rank_test_score'][0]\n",
+					"    print (f\"Mean score: {model_grid.cv_results_['mean_test_score'][best_k]}\",\n",
+					"           f\"Std: {model_grid.cv_results_['std_test_score'][best_k]}\")"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "mE0HYs6PawhL",
+					"outputId": "028a2006-cd31-4d52-808f-12a63bda0197"
+				},
+				"source": [
+					"# Examine the best model\n",
+					"print(rand.best_score_)\n",
+					"print(rand.best_params_)\n",
+					"get_best_model(rand)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "uuc896SyawhM"
+				},
+				"source": [
+					"We found optimal parameters, not a huge improvement, but anything helps"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "rrNJMdHLawhM"
+				},
+				"source": [
+					"# Class Imbalance"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "Qs35FffGawhM"
+				},
+				"source": [
+					"## Under/Oversampling"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "Oi_-NypPawhN"
+				},
+				"source": [
+					"def over_under_sample(X_train, y_train, Under=True, Over=True):\n",
+					"    \"\"\"\n",
+					"    Input: training features and target\n",
+					"    Output: under/oversampled datasets\n",
+					"    \"\"\"\n",
+					"    rus = RandomUnderSampler(random_state=42)\n",
+					"    ros = RandomOverSampler(random_state=42)\n",
+					"\n",
+					"    if Under and Over:\n",
+					"        X_train_under, y_train_under = rus.fit_resample(X_train, y_train)\n",
+					"        X_train_over, y_train_over = ros.fit_resample(X_train, y_train)\n",
+					"        return X_train_under, y_train_under, X_train_over, y_train_over\n",
+					"    elif Under:\n",
+					"        X_train_under, y_train_under = rus.fit_resample(X_train, y_train)\n",
+					"        return X_train_under, y_train_under\n",
+					"    else:\n",
+					"        X_train_over, y_train_over = ros.fit_resample(X_train, y_train)\n",
+					"        return X_train_over, y_train_over"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "zlkw0fPuawhN"
+				},
+				"source": [
+					"# Split data\n",
+					"X_train, X_val, X_test, y_train, y_val, y_test = train_test_val_split(X, y)\n",
+					"\n",
+					"# Random under/over sampling\n",
+					"X_train_under, y_train_under, X_train_over, y_train_over = over_under_sample(X_train, y_train, Under=True, Over=True)\n",
+					""
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "n7RIh8WqawhN"
+				},
+				"source": [
+					"## Undersampling"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "gtPj4q09awhO",
+					"outputId": "297ee9d7-f33e-41fc-92b7-9235d2a60fa7"
+				},
+				"source": [
+					"# Scale\n",
+					"X_train_scaled_under, X_val_scaled, X_test_scaled = scale_data(X_train_under, X_val, X_test)\n",
+					"\n",
+					"# Score\n",
+					"rf_under = model_score('RF', RandomForestClassifier(**rand.best_params_),\n",
+					"                 X_train_scaled_under, X_val_scaled, X_test_scaled,\n",
+					"                 y_train_under, y_val, y_test, test=False)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "CocjlSA8awhO",
+					"outputId": "5c4249d8-afbf-48d4-dde6-f952803b6e87"
+				},
+				"source": [
+					"y_preds = rf_under.predict(X_test_scaled)\n",
+					"print(classification_report(y_test, y_preds))"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "xOsT-hKwawhO"
+				},
+				"source": [
+					"## Oversampling"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "pDrvVmleawhP",
+					"outputId": "2338f6c8-a4a4-4821-90df-2f9d024eb0b3"
+				},
+				"source": [
+					"# Scale\n",
+					"X_train_scaled_over, X_val_scaled, X_test_scaled = scale_data(X_train_over, X_val, X_test)\n",
+					"\n",
+					"# Score\n",
+					"rf_over = model_score('RF', RandomForestClassifier(**rand.best_params_),\n",
+					"                 X_train_scaled_over, X_val_scaled, X_test_scaled,\n",
+					"                 y_train_over, y_val, y_test, test=False)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/"
+					},
+					"id": "6pow_ZcFawhP",
+					"outputId": "b2529ecd-fa86-4442-cee9-d4433d737b4d"
+				},
+				"source": [
+					"# Classification report\n",
+					"y_preds = rf_over.predict(X_test_scaled)\n",
+					"print(classification_report(y_test, y_preds))"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "EybdMyaOawhQ"
+				},
+				"source": [
+					"Overall accuracy decreased by about 0.04, and recall decreased by about 0.10. However, precision increased by 0.18. That may be good or bad, depending on what costs more. Is it more costly to incorrectly predict true defaults, or is it more costly to incorrectly identifythose who will not default? That is up to management to decide."
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "ckL7xF3WawhQ"
+				},
+				"source": [
+					"# Analyze Results"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "5DWTcEfPawhQ"
+				},
+				"source": [
+					"## Final Model"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"colab": {
+						"base_uri": "https://localhost:8080/",
+						"height": 217
+					},
+					"id": "qChnUCSnawhR",
+					"outputId": "dfc6e5d1-24f6-4e08-a8b4-9366365cca60"
+				},
+				"source": [
+					"print(\"Random Forest with the following parameters:\\n\")\n",
+					"print(rand.best_params_)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "Dfog--tgawhR"
+				},
+				"source": [
+					"Sometimes the best model is the simplest. The model with minimal manipulation yielded the highest recall score of 0.95. After feature selection and hyperparameter tuning, recall decreased to 0.79.\n",
+					"\n",
+					"Let's check for overfitting. Overfitting means the model is strong at predicting the data it was trained, but weak at generalizing to unseen data. Lets test the model on never-before-seen data points and see how it performs"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "aPzlzKgCawhR"
+				},
+				"source": [
+					"## Check for Overfitting"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "0JiA2Kd9awhS"
+				},
+				"source": [
+					"# features and target\n",
+					"X = df.loc[:,'limit_bal':'Apr_Pmt']\n",
+					"y = df['Default']\n",
+					"\n",
+					"# encode categorical\n",
+					"\n",
+					"X = encode_cats(categoricals, numericals)\n",
+					"\n",
+					"# Split data\n",
+					"X_train, X_val, X_test, y_train, y_val, y_test = train_test_val_split(X, y)\n",
+					"\n",
+					"# Scale\n",
+					"X_train_scaled, X_val_scaled, X_test_scaled = scale_data(X_train, X_val, X_test)\n",
+					"\n",
+					"# Model score\n",
+					"rf = model_score('RF', RandomForestClassifier(**rand.best_params_),\n",
+					"                 X_train_scaled, X_val_scaled, X_test_scaled,\n",
+					"                 y_train, y_val, y_test, test=True)"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "kNOmJoVeawhS"
+				},
+				"source": [
+					"Validation score and test score are similar so there is no sign overfitting"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "hauvC-J5awhS"
+				},
+				"source": [
+					"## F-Beta Score"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "cuPdvxJ-awhT"
+				},
+				"source": [
+					"print(f\"f-beta score: {fbeta_score(y_test, rf_over.predict(X_test_scaled), average='weighted', beta=5.0):.4}\")"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"id": "PQcOzculawhT"
+				},
+				"source": [
+					"## ROC Curve"
+				],
+				"attachments": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "Ft9lea8KawhT"
+				},
+				"source": [
+					"fpr, tpr, thresholds = roc_curve(y_test, rf_over.predict_proba(X_test_scaled)[:,1])\n",
+					"\n",
+					"plt.plot(fpr, tpr,lw=2)\n",
+					"plt.plot([0,1],[0,1],c='violet',ls='--')\n",
+					"plt.xlim([-0.05,1.05])\n",
+					"plt.ylim([-0.05,1.05])\n",
+					"\n",
+					"\n",
+					"plt.xlabel('False positive rate')\n",
+					"plt.ylabel('True positive rate')\n",
+					"plt.title('ROC curve');\n",
+					"print(\"ROC AUC score = \", roc_auc_score(y_test, rf_over.predict_proba(X_test_scaled)[:,1]))"
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "7eSzSpspawhU"
+				},
+				"source": [
+					""
+				],
+				"attachments": null,
+				"execution_count": null
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"id": "VNfyic6UawhU"
+				},
+				"source": [
+					""
+				],
+				"attachments": null,
+				"execution_count": null
+			}
+		]
+	}
+}

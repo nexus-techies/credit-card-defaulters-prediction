@@ -1,0 +1,167 @@
+{
+	"name": "Dataset_Mysql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_Mysql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LIMIT_BAL",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SEX",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "EDUCATION",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "MARRIAGE",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AGE",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_0",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_2",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_3",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_4",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_5",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_6",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT1",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT2",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT3",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT4",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT5",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BILL_AMT6",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT1",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT2",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT3",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT4",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT5",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PAY_AMT6",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "default payment next month",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "credicard3"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

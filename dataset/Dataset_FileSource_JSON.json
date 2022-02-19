@@ -1,0 +1,99 @@
+{
+	"name": "Dataset_FileSource_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Data_Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "credit5.json",
+				"fileSystem": "file-format-sources"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"ID": {
+					"type": "string"
+				},
+				"LIMIT_BAL": {
+					"type": "string"
+				},
+				"SEX": {
+					"type": "string"
+				},
+				"EDUCATION": {
+					"type": "string"
+				},
+				"MARRIAGE": {
+					"type": "string"
+				},
+				"AGE": {
+					"type": "string"
+				},
+				"PAY_0": {
+					"type": "string"
+				},
+				"PAY_2": {
+					"type": "string"
+				},
+				"PAY_3": {
+					"type": "string"
+				},
+				"PAY_4": {
+					"type": "string"
+				},
+				"PAY_5": {
+					"type": "string"
+				},
+				"PAY_6": {
+					"type": "string"
+				},
+				"BILL_AMT1": {
+					"type": "string"
+				},
+				"BILL_AMT2": {
+					"type": "string"
+				},
+				"BILL_AMT3": {
+					"type": "string"
+				},
+				"BILL_AMT4": {
+					"type": "string"
+				},
+				"BILL_AMT5": {
+					"type": "string"
+				},
+				"BILL_AMT6": {
+					"type": "string"
+				},
+				"PAY_AMT1": {
+					"type": "string"
+				},
+				"PAY_AMT2": {
+					"type": "string"
+				},
+				"PAY_AMT3": {
+					"type": "string"
+				},
+				"PAY_AMT4": {
+					"type": "string"
+				},
+				"PAY_AMT5": {
+					"type": "string"
+				},
+				"PAY_AMT6": {
+					"type": "string"
+				},
+				"default payment next month": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

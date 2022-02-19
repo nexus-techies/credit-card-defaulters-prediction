@@ -1,0 +1,16 @@
+{
+	"name": "LinkedService_SqlServer",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=team-nexus-sqlserver.database.windows.net;initial catalog=credit_details;user id=team-nexus",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VARjFBQkIxQUMtRjI4Ni00NUNFLUEwMDQtNkYzNDJDMTUyQ0Q4XzA3MzIxNWJmLTU4N2EtNDJkMi1hMmFhLTAzZmQ4NjI3OGU1YSINCn0="
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

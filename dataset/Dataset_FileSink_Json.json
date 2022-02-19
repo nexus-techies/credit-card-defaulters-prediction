@@ -1,0 +1,25 @@
+{
+	"name": "Dataset_FileSink_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Data_Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "credit5.csv",
+				"folderPath": "Json",
+				"fileSystem": "team-nexus"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

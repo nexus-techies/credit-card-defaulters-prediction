@@ -1,0 +1,16 @@
+{
+	"name": "Dataset_MongoDbAtlasCollection",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_MongoDb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbAtlasCollection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "credit_1"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

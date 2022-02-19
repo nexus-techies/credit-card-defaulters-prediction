@@ -1,0 +1,139 @@
+{
+	"name": "Dataset_SqlServer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_SqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "LIMIT_BAL",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "SEX",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EDUCATION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MARRIAGE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_0",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_3",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_4",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_5",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_6",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT1",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT3",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT4",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT5",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BILL_AMT6",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT1",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT2",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT3",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT4",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT5",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PAY_AMT6",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "default payment next month",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Aditya_dataset2$"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

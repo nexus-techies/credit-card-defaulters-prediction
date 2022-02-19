@@ -1,0 +1,25 @@
+{
+	"name": "Dataset_DataLake_SqlServer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Data_Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "credit2.csv",
+				"folderPath": "SqlServer",
+				"fileSystem": "team-nexus"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

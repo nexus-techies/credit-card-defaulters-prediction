@@ -1,0 +1,122 @@
+{
+	"name": "Dataset_FileSource_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Data_Lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "credit4.snappy.parquet",
+				"fileSystem": "file-format-sources"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "UTF8"
+			},
+			{
+				"name": "LIMIT_BAL",
+				"type": "UTF8"
+			},
+			{
+				"name": "SEX",
+				"type": "UTF8"
+			},
+			{
+				"name": "EDUCATION",
+				"type": "UTF8"
+			},
+			{
+				"name": "MARRIAGE",
+				"type": "UTF8"
+			},
+			{
+				"name": "AGE",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_0",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_2",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_3",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_4",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_5",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_6",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT1",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT2",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT3",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT4",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT5",
+				"type": "UTF8"
+			},
+			{
+				"name": "BILL_AMT6",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT1",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT2",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT3",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT4",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT5",
+				"type": "UTF8"
+			},
+			{
+				"name": "PAY_AMT6",
+				"type": "UTF8"
+			},
+			{
+				"name": "default",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
